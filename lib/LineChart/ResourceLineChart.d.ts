@@ -1,9 +1,9 @@
-import * as React from "react";
-import { LineChartProps } from "recharts";
+import * as React from 'react';
+import { LineChartProps } from 'recharts';
+import { ResourceCollection } from 'webpanel-data';
 export interface ResourceLineChartProps extends LineChartProps {
-    resourceCollection: any;
+    resourceCollection: ResourceCollection;
 }
-declare class ResourceLineChart extends React.Component<ResourceLineChartProps> {
+export declare class ResourceLineChart extends React.Component<ResourceLineChartProps> {
     render(): JSX.Element;
 }
-export { ResourceLineChart };
