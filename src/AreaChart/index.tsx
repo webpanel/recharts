@@ -1,1 +1,1 @@
-export { ResourceAreaChart } from './ResourceAreaChart';
+export { ResourceAreaChart } from './AreaChart';

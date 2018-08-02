@@ -1,1 +1,1 @@
-export { ResourceLineChart } from './ResourceLineChart';
+export { ResourceLineChart } from './LineChart';
