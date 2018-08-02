@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { LineChart, LineChartProps } from 'recharts';
+import { AreaChart, AreaChartProps } from 'recharts';
 import { observer } from 'mobx-react';
 import { ResourceCollection } from 'webpanel-data';
 import { Spin } from 'antd';
 
-export interface ResourceLineChartProps extends LineChartProps {
+export interface ResourceAreaChartProps extends AreaChartProps {
     resourceCollection: ResourceCollection;
 }
 
 @observer
-export class ResourceLineChart extends React.Component<ResourceLineChartProps> {
+export class ResourceAreaChart extends React.Component<ResourceAreaChartProps> {
     render(){
         const {
             resourceCollection: {data, loading},
@@ -22,9 +22,9 @@ export class ResourceLineChart extends React.Component<ResourceLineChartProps> {
         }
 
         return (
-            <LineChart data={data || []} {...restProps}>
+            <AreaChart data={data || []} {...restProps}>
                 {children}
-            </LineChart>
+            </AreaChart>
         );
     }
 }
