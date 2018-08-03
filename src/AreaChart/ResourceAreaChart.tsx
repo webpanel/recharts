@@ -1,9 +1,5 @@
-import { chartWrapper } from "../ChartWrapper";
-import { AreaChart, AreaChartProps } from "recharts";
-import { ResourceCollection } from 'webpanel-data';
+import { chartWrapper } from '../ChartWrapper';
 
-export interface ResourceAreaChartProps extends AreaChartProps {
-    resourceCollection: ResourceCollection;
-}
+import { AreaChart } from 'recharts';
 
 export const ResourceAreaChart = chartWrapper(AreaChart);

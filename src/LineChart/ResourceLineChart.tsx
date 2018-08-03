@@ -1,9 +1,5 @@
-import { chartWrapper } from "../ChartWrapper";
-import { LineChart, LineChartProps } from "recharts";
-import { ResourceCollection } from 'webpanel-data';
+import { chartWrapper } from '../ChartWrapper';
 
-export interface ResourceLineChartProps extends LineChartProps {
-    resourceCollection: ResourceCollection;
-}
+import { LineChart } from 'recharts';
 
 export const ResourceLineChart = chartWrapper(LineChart);

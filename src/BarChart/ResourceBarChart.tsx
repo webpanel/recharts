@@ -1,9 +1,5 @@
-import { chartWrapper } from "../ChartWrapper";
-import { BarChart, BarChartProps } from "recharts";
-import { ResourceCollection } from 'webpanel-data';
+import { chartWrapper } from '../ChartWrapper';
 
-export interface ResourceBarChartProps extends BarChartProps {
-    resourceCollection: ResourceCollection;
-}
+import { BarChart } from 'recharts';
 
 export const ResourceBarChart = chartWrapper(BarChart);
