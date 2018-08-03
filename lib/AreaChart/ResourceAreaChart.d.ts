@@ -1,9 +1,7 @@
-import * as React from 'react';
-import { AreaChartProps } from 'recharts';
+/// <reference types="react" />
+import { AreaChartProps } from "recharts";
 import { ResourceCollection } from 'webpanel-data';
 export interface ResourceAreaChartProps extends AreaChartProps {
     resourceCollection: ResourceCollection;
 }
-export declare class ResourceAreaChart extends React.Component<ResourceAreaChartProps> {
-    render(): JSX.Element;
-}
+export declare const ResourceAreaChart: (props: any) => JSX.Element;
