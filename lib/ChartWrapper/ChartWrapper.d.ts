@@ -4,4 +4,4 @@ import { ResourceCollection } from 'webpanel-data';
 export interface IResourceChartProps extends CategoricalChartWrapper {
     resourceCollection: ResourceCollection;
 }
-export declare const chartWrapper: (ChartComponent: React.ComponentType<CategoricalChartWrapper<import("recharts").LayoutType>>) => (props: IResourceChartProps) => JSX.Element;
+export declare const chartWrapper: (ChartComponent: React.ComponentType<CategoricalChartWrapper<"horizontal" | "vertical">>) => (props: IResourceChartProps) => JSX.Element;

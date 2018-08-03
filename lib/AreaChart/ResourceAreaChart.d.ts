@@ -1,2 +1,4 @@
 /// <reference types="react" />
-export declare const ResourceAreaChart: (props: any) => JSX.Element;
+import { IResourceChartProps } from '../ChartWrapper';
+export { IResourceChartProps };
+export declare const ResourceAreaChart: (props: IResourceChartProps) => JSX.Element;

@@ -1,1 +1,1 @@
-{"version":3,"file":"ResourceBarChart.js","sourceRoot":"","sources":["../../src/BarChart/ResourceBarChart.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAE/C,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAC;AAEpC,MAAM,CAAC,IAAM,gBAAgB,GAAG,YAAY,CAAC,QAAQ,CAAC,CAAC"}
+{"version":3,"file":"ResourceBarChart.js","sourceRoot":"","sources":["../../src/BarChart/ResourceBarChart.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAC;AACpC,OAAO,EAAE,YAAY,EAAuB,MAAM,iBAAiB,CAAC;AAIpE,MAAM,CAAC,IAAM,gBAAgB,GAAG,YAAY,CAAC,QAAQ,CAAC,CAAC"}
