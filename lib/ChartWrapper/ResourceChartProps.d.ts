@@ -3,4 +3,5 @@ import { IResourceBarChartProps } from '../BarChart/ResourceBarChartProps';
 import { IResourceComposedChartProps } from '../ComposedChart/ResourceComposedChartProps';
 import { IResourceLineChartProps } from '../LineChart/ResourceLineChartProps';
 import { IResourceRadarChartProps } from '../RadarChart/ResourceRadarChartProps';
-export declare type IResourceChartProps = IResourceAreaChartProps & IResourceBarChartProps & IResourceComposedChartProps & IResourceLineChartProps & IResourceRadarChartProps;
+import { IResourceRadialBarChartProps } from '../RadialBarChart/ResourceRadialBarChartProps';
+export declare type IResourceChartProps = IResourceAreaChartProps & IResourceBarChartProps & IResourceComposedChartProps & IResourceLineChartProps & IResourceRadarChartProps & IResourceRadialBarChartProps;

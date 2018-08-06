@@ -1,6 +1,4 @@
 import { RadarChart } from 'recharts';
-import { chartWrapper, IResourceChartProps } from '../ChartWrapper';
-
-export { IResourceChartProps };
+import { chartWrapper } from '../ChartWrapper';
 
 export const ResourceRadarChart = chartWrapper(RadarChart);

@@ -1,6 +1,4 @@
 import { RadialBarChart } from 'recharts';
-import { chartWrapper, IResourceChartProps } from '../ChartWrapper';
-
-export { IResourceChartProps };
+import { chartWrapper } from '../ChartWrapper';
 
 export const ResourceRadialBarChart = chartWrapper(RadialBarChart);
