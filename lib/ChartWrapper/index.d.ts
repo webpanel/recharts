@@ -1,1 +1,2 @@
-export { chartWrapper, IResourceChartProps } from './ChartWrapper';
+export { chartWrapper } from './ChartWrapper';
+export { IResourceChartProps } from './ResourceChartProps';
