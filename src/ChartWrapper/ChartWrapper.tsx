@@ -8,7 +8,7 @@ import { IResourceChartProps } from './ResourceChartProps';
 
 export const chartWrapper = (
   ChartComponent: React.ComponentType<
-    CategoricalChartWrapper<'centric' | 'horizontal' | 'vertical'>
+    CategoricalChartWrapper<'centric' | 'horizontal' | 'radial' | 'vertical'>
   >
 ) => {
   return observer((props: IResourceChartProps) => {
