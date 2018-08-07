@@ -1,0 +1,1 @@
+export { ResourcePieChart } from './ResourcePieChart';

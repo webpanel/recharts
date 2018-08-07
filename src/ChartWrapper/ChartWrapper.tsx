@@ -15,6 +15,7 @@ export const chartWrapper = (
     const {
       resourceCollection: { data, loading },
       children,
+      render,
       ...restProps
     } = props;
 
@@ -24,6 +25,10 @@ export const chartWrapper = (
           <Spin />
         </div>
       );
+    }
+
+    if (render) {
+      return <ChartComponent {...restProps}>{render(data)}</ChartComponent>;
     }
 
     return (
