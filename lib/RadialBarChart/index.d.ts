@@ -1,0 +1,1 @@
+export { ResourceRadialBarChart } from './ResourceRadialBarChart';

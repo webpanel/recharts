@@ -1,0 +1,1 @@
+export { ResourceAreaChart } from './ResourceAreaChart';

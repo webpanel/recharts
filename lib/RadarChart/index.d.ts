@@ -1,0 +1,1 @@
+export { ResourceRadarChart } from './ResourceRadarChart';

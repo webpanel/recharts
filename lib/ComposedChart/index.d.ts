@@ -1,0 +1,1 @@
+export { ResourceComposedChart } from './ResourceComposedChart';
