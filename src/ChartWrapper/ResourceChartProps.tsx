@@ -5,9 +5,10 @@ import { IResourceLineChartProps } from '../LineChart/ResourceLineChartProps';
 import { IResourceRadarChartProps } from '../RadarChart/ResourceRadarChartProps';
 import { IResourceRadialBarChartProps } from '../RadialBarChart/ResourceRadialBarChartProps';
 
-export type IResourceChartProps = IResourceAreaChartProps &
-  IResourceBarChartProps &
-  IResourceComposedChartProps &
-  IResourceLineChartProps &
-  IResourceRadarChartProps &
-  IResourceRadialBarChartProps;
+export type IResourceChartProps =
+  | IResourceAreaChartProps
+  | IResourceBarChartProps
+  | IResourceComposedChartProps
+  | IResourceLineChartProps
+  | IResourceRadarChartProps
+  | IResourceRadialBarChartProps;
