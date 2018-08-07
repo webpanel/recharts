@@ -6,3 +6,4 @@ export { ResourcePieChart } from './PieChart';
 export { ResourceRadarChart } from './RadarChart';
 export { ResourceRadialBarChart } from './RadialBarChart';
 export { ResourceScatterChart } from './ScatterChart';
+export { ResourceTreemap } from './Treemap';
