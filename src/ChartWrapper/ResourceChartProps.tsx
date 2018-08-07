@@ -5,6 +5,8 @@ import { IResourceLineChartProps } from '../LineChart/ResourceLineChartProps';
 import { IResourcePieChartProps } from '../PieChart/ResourcePieChartProps';
 import { IResourceRadarChartProps } from '../RadarChart/ResourceRadarChartProps';
 import { IResourceRadialBarChartProps } from '../RadialBarChart/ResourceRadialBarChartProps';
+import { IResourceScatterChartProps } from '../ScatterChart/ResourceScatterChartProps';
+import { IResourceTreemapProps } from '../Treemap/ResourceTreemapProps';
 
 export type IResourceChartProps = IResourceAreaChartProps &
   IResourceBarChartProps &
@@ -12,4 +14,6 @@ export type IResourceChartProps = IResourceAreaChartProps &
   IResourceLineChartProps &
   IResourcePieChartProps &
   IResourceRadarChartProps &
-  IResourceRadialBarChartProps;
+  IResourceRadialBarChartProps &
+  IResourceScatterChartProps &
+  IResourceTreemapProps;
