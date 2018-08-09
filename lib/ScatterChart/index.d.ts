@@ -1,0 +1,1 @@
+export { ResourceScatterChart } from './ResourceScatterChart';

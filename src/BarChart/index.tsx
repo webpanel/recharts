@@ -1,0 +1,1 @@
+export { ResourceBarChart } from './ResourceBarChart';

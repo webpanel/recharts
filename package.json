@@ -7,7 +7,7 @@
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b",
     "watch": "tsc -w",
     "patch-release": "npm version patch && git push --follow-tags && npm publish",
     "test": "react-scripts-ts test --env=jsdom"
@@ -25,7 +25,7 @@
     "@types/recharts": "^1.0.25",
     "mobx-react": "^5.2.3",
     "react-scripts-ts": "^2.16.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.1"
   },
   "peerDependencies": {
     "mobx-react": "*",
