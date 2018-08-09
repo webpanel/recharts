@@ -1,6 +1,6 @@
 {
   "name": "webpanel-recharts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "https://github.com/webpanel/recharts.git",
   "license": "MIT",
   "main": "lib/index.js",
